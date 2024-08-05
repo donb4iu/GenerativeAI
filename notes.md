@@ -8,11 +8,13 @@
 
 ## References
 
+
 - [GenAI with Python: RAG with LLM (Complete Tutorial)](https://towardsdatascience.com/genai-with-python-rag-with-llm-complete-tutorial-c276dda6707b)
 
 ## Libraries
 
 brew install tesseract
+brew install poppler
 
 
 
@@ -20,6 +22,12 @@ brew install tesseract
 
 ### #( 07/31/24@ 3:01PM )( donbuddenbaum@donbs-imac ):~
    pyenv global 3.12.3
+### #( 08/04/24@10:57PM )( donbuddenbaum@donbs-imac ):~/Documents/GenerativeAI@main✗✗✗
+   
+   python --version
+
+      Python 3.11.5
+
 
 ### #( 07/31/24@ 3:02PM )( donbuddenbaum@donbs-imac ):~
    jupyter notebook
@@ -112,3 +120,29 @@ Downloading ollama-0.3.1-py3-none-any.whl (10 kB)
 Installing collected packages: ollama
 Successfully installed ollama-0.3.1
 ```
+
+### #( 08/04/24@11:10PM )( donbuddenbaum@donbs-imac ):~
+   pip install chromadb==0.5.0
+
+      Collecting chromadb==0.5.0
+
+
+### #( 08/04/24@11:12PM )( donbuddenbaum@donbs-imac ):~
+   pip install pytesseract==0.3.10
+
+```
+Collecting pytesseract==0.3.10
+
+  Obtaining dependency information for pytesseract==0.3.10 from https://files.pythonhosted.org/packages/c5/54/ec007336f38d2d4ce61f3544af3e6855dacbf04a1ac8294f10cabe81146f/pytesseract-0.3.10-py3-none-any.whl.metadata
+  Downloading pytesseract-0.3.10-py3-none-any.whl.metadata (11 kB)
+Requirement already satisfied: packaging>=21.3 in ./.pyenv/versions/3.11.5/lib/python3.11/site-packages (from pytesseract==0.3.10) (24.1)
+Requirement already satisfied: Pillow>=8.0.0 in ./.pyenv/versions/3.11.5/lib/python3.11/site-packages (from pytesseract==0.3.10) (10.4.0)
+Downloading pytesseract-0.3.10-py3-none-any.whl (14 kB)
+Installing collected packages: pytesseract
+Successfully installed pytesseract-0.3.10
+```
+
+### #( 08/04/24@11:22PM )( donbuddenbaum@donbs-imac ):~
+   pip install tqdm
+
+      Requirement already satisfied: tqdm in ./.pyenv/versions/3.11.5/lib/python3.11/site-packages (4.66.5)
